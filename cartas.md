@@ -23,7 +23,7 @@ int main() {
     float densidade1 = populacao1 / area1;
     float densidade2 = populacao2 / area2;
 
-    // Atenção: PIB está em bilhões. Multiplicamos por 1.000.000.000 para obter em reais.
+    // Atenção: PIB está em bilhões.
     float pib_per_capita1 = (pib1 * 1000000000) / populacao1;
     float pib_per_capita2 = (pib2 * 1000000000) / populacao2;
 
